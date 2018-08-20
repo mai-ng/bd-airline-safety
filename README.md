@@ -1,4 +1,4 @@
-# Airline Safety with Pandas
+# Analywe Airline Safety with Pandas
 This repository contains a dataset from the source: https://github.com/fivethirtyeight/data/tree/master/airline-safety
 
 ## Environment
@@ -8,7 +8,8 @@ This repository contains a dataset from the source: https://github.com/fivethirt
 
 ## Pandas Tutorial
 > Import pandas as pd.
-'import pandas as pd'
+
+`import pandas as pd`
 
 > Read airline-safety.csv as a dataframe called data.
 
