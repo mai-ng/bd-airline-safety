@@ -25,13 +25,19 @@ This repository contains a dataset from the source: https://github.com/fivethirt
 
 `data[data["avail_seat_km_per_week"] == data["avail_seat_km_per_week"].max()][["airline", "avail_seat_km_per_week"]]`
 
+![alt text](most-avail-seats.png)
+
 > Top 5 airlines which have the most available seats per week?
 
 `data[["airline", "avail_seat_km_per_week"]].sort_values(by="avail_seat_km_per_week", ascending=False).head(5)`
 
+![alt text](top-5-avail-seat.png)
+
 > How many accidents are there?
 
 `data.iloc[:, 3:].sum()`
+
+![alt text](nb-accidents.png)
 
 > Top 10 airlines have the most accidents?
 - without the airline column
@@ -43,3 +49,5 @@ This repository contains a dataset from the source: https://github.com/fivethirt
 `data['totalAcc'] = data.iloc[:, 3:].sum(axis=1)`
 
 `print(data[["airline", "totalAcc"]].sort_values(by="totalAcc", ascending=False).head(10))`
+
+![alt text](top-10-accidents.png)
