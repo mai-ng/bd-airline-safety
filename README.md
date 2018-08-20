@@ -51,3 +51,6 @@ This repository contains a dataset from the source: https://github.com/fivethirt
 `print(data[["airline", "totalAcc"]].sort_values(by="totalAcc", ascending=False).head(10))`
 
 ![alt text](top-10-accidents.png)
+
+> Visualize the number of incidents, accidents and fatalities by matplotlib
+![alt text](airline-safety.png)
