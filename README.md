@@ -4,7 +4,7 @@ This repository contains a dataset from the source: https://github.com/fivethirt
 ## Environment
 - Python version 3.7
 - Pandas version 0.23.4
-- matplotlib version
+- matplotlib version 2.2.3
 
 ## Pandas Tutorial
 > Import pandas as pd.
