@@ -1,4 +1,4 @@
-# Analyze Airline Safety with Pandas
+# Airline Safety Analysis with Pandas
 This repository contains a dataset from the source: https://github.com/fivethirtyeight/data/tree/master/airline-safety
 
 ## Environment
@@ -52,6 +52,6 @@ This repository contains a dataset from the source: https://github.com/fivethirt
 
 ![alt text](top-10-accidents.png)
 
-> Visualize the number of incidents, accidents and fatalities by matplotlib
+## Visualisation of the number of incidents, accidents and fatalities by matplotlib
 
 ![alt text](airline-safety.png)
