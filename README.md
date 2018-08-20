@@ -18,6 +18,8 @@ This repository contains a dataset from the source: https://github.com/fivethirt
 
 `data.info()`
 
+![alt text](info.png)
+
 > Which airline has the most avaialbe seats per week, and how many?
 
 `data[data["avail_seat_km_per_week"] == data["avail_seat_km_per_week"].max()][["airline", "avail_seat_km_per_week"]]`
@@ -37,5 +39,6 @@ This repository contains a dataset from the source: https://github.com/fivethirt
 
 - with the airline column
 
-`data["totalAcc"] = sort_values(ascending=False).head(10)`
+`data['totalAcc'] = data.iloc[:, 3:].sum(axis=1)`
+
 `print(data[["airline", "totalAcc"]].sort_values(by="totalAcc", ascending=False).head(10))`
