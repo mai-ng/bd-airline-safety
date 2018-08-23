@@ -1,6 +1,11 @@
 # Airline Safety Analysis with Pandas
 This repository contains a dataset from the source: https://github.com/fivethirtyeight/data/tree/master/airline-safety
 
+- Read data from a file and fron internet
+- Analyse the data
+- Extract useful information
+- Visualize the data
+
 ## Environment
 - Python version 3.7
 - Pandas version 0.23.4
